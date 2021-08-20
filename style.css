@@ -1,0 +1,104 @@
+body {
+  background-image: url("pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.order_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  margin: 0 auto;
+}
+.image {
+  border-radius: 20px 20px 0 0;
+  filter: drop-shadow(0px 5px 6px hsl(224, 23%, 55%));
+}
+.bottom_section {
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  filter: drop-shadow(0px 5px 6px hsl(224, 23%, 55%));
+}
+.summary {
+  text-align: center;
+  width: 450px;
+}
+
+.summary h2 {
+  margin-top: 50px;
+  color: hsl(223, 47%, 23%);
+}
+
+.summary p {
+  text-align: center;
+  margin: 10px 50px;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan_selection {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin: 35px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan_option {
+  display: flex;
+  flex-direction: column;
+  margin-right: 27%;
+}
+
+.plan_type {
+  font-weight: 800;
+  color: hsl(223, 47%, 23%);
+  margin: 0;
+}
+
+.pricing {
+  color: hsl(224, 23%, 55%);
+  margin: 0;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a {
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 35px;
+}
+
+.buttons button {
+  padding: 15px 0;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  color: hsl(223, 47%, 23%);
+  background-color: white;
+  font-weight: 800;
+}
+
+#proceed_button {
+  background-color: #7e65fa;
+  color: white;
+  font-weight: 800;
+  filter: drop-shadow(0px 4px 2px #7e65fa);
+}
+
+button:hover {
+  cursor: pointer;
+}
